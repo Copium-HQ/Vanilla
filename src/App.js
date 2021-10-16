@@ -12,7 +12,7 @@ import ReportPage from './pages/ReportPage';
 function App() {
   return (
     <Router>
-      <Sidebar />
+      <Sidebar/>
       <Switch>
         <Route path='/Overview' exact component={Overview} />
         <Route path='/EmergencyPage' exact component={EmergencyPage} />

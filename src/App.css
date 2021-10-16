@@ -13,9 +13,9 @@
 .suits,
 .report,
 .team {
-  display: flex;
+  padding-left: 25%;
   height: 90vh;
   align-items: center;
   justify-content: center;
-  font-size: 3rem;
+  font-size: 100%;
 }
