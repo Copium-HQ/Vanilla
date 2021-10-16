@@ -2,6 +2,7 @@ import React from 'react';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import * as IoIcons from 'react-icons/io';
+import * as BsIcons from 'react-icons/bs';
 import * as RiIcons from 'react-icons/ri';
 
 export const SidebarData = [
@@ -23,17 +24,17 @@ export const SidebarData = [
   {
     title: 'Suits',
     path: '/products',
-    icon: <FaIcons.FaCartPlus />
+    icon: <IoIcons.IoMdPeople />
   },
   {
     title: 'Map',
     path: '/team',
-    icon: <IoIcons.IoMdPeople />
+    icon: <BsIcons.BsFillMapFill />
   },
   {
     title: 'Emergency',
     path: '/messages',
-    icon: <FaIcons.FaEnvelopeOpenText />,
+    icon: <BsIcons.BsFillExclamationTriangleFill />,
 
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
