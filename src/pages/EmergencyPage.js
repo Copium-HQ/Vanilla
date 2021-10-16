@@ -2,7 +2,7 @@ import React from 'react';
 
 const EmergencyPage = () => {
     return (
-        <div>
+        <div className='em'>
         <h1> Emergency </h1>
             <p>In case of emergency please do NOT panic. </p>
             <p>Please contact one of the phone numbers bellow</p>
@@ -27,6 +27,7 @@ const EmergencyPage = () => {
         <h3>AREA 51 - Investigations</h3>
             <p>'81-80-553'</p>
     </div>
+
     );
 };
 

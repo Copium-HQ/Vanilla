@@ -5,6 +5,7 @@ import Overview from './pages/Overview';
 import { Reports, ReportsOne, ReportsTwo, ReportsThree } from './pages/Reports';
 import Team from './pages/Team';
 import EmergencyPage from './pages/EmergencyPage';
+import Protocols from './pages/Protocols';
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
       <Switch>
         <Route path='/Overview' exact component={Overview} />
         <Route path='/EmergencyPage' exact component={EmergencyPage} />
-        <Route path='/reports/reports1' exact component={ReportsOne} />
+        <Route path='/Protocols' exact component={Protocols} />
         <Route path='/reports/reports2' exact component={ReportsTwo} />
         <Route path='/reports/reports3' exact component={ReportsThree} />
         <Route path='/team' exact component={Team} />

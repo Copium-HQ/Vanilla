@@ -1,5 +1,4 @@
 import React from 'react';
-import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import * as IoIcons from 'react-icons/io';
 import * as BsIcons from 'react-icons/bs';
@@ -16,24 +15,24 @@ export const SidebarData = [
   },
   {
     title: 'Protocols',
-    path: '/reports',
+    path: '/Protocols',
     icon: <IoIcons.IoIosPaper />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
   },
   {
     title: 'Suits',
-    path: '/products',
+    path: '/SuitPage',
     icon: <IoIcons.IoMdPeople />
   },
   {
     title: 'Map',
-    path: '/team',
+    path: '/Team',
     icon: <BsIcons.BsFillMapFill />
   },
   {
     title: 'Emergency',
-    path: '/messages',
+    path: '/EmergencyPage',
     icon: <BsIcons.BsFillExclamationTriangleFill />,
 
     iconClosed: <RiIcons.RiArrowDownSFill />,
