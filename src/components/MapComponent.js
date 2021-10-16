@@ -32,6 +32,6 @@ export default function SimpleMap(){
 
 export function MapComponent() {
     <div>
-
+        <SimpleMap></SimpleMap>
     </div>
 }

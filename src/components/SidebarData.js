@@ -39,4 +39,13 @@ export const SidebarData = [
     iconOpened: <RiIcons.RiArrowUpSFill />,
 
   },
+  {
+    title: 'Report',
+    path: '/ReportPage',
+    icon: <AiIcons.AiOutlineForm/>,
+
+    iconClosed: <RiIcons.RiArrowDownSFill />,
+    iconOpened: <RiIcons.RiArrowUpSFill />,
+
+  },
 ];

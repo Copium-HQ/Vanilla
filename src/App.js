@@ -2,10 +2,11 @@ import './App.css';
 import Sidebar from './components/Sidebar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Overview from './pages/Overview';
-import { Reports, ReportsOne, ReportsTwo, ReportsThree } from './pages/Reports';
 import Team from './pages/Team';
 import EmergencyPage from './pages/EmergencyPage';
+import SuitPage from './pages/SuitPage';
 import Protocols from './pages/Protocols';
+import ReportPage from './pages/ReportPage';
 
 
 function App() {
