@@ -10,10 +10,9 @@
 .em,
 .protocol,
 .home,
-.reports,
-.products,
-.team,
-.reports {
+.suits,
+.report,
+.team {
   display: flex;
   height: 90vh;
   align-items: center;
