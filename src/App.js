@@ -10,17 +10,20 @@ import Protocols from './pages/Protocols';
 
 function App() {
   return (
-    <Router>
-      <Sidebar />
-      <Switch>
-        <Route path='/Overview' exact component={Overview} />
-        <Route path='/EmergencyPage' exact component={EmergencyPage} />
-        <Route path='/Protocols' exact component={Protocols} />
-        <Route path='/reports/reports2' exact component={ReportsTwo} />
-        <Route path='/reports/reports3' exact component={ReportsThree} />
-        <Route path='/team' exact component={Team} />
-      </Switch>
-    </Router>
+    <div>
+       <Router>
+        <Sidebar />
+          <Switch>
+            <Route path='/Overview' exact component={Overview} />
+            <Route path='/EmergencyPage' exact component={EmergencyPage} />
+            <Route path='/Protocols' exact component={Protocols} />
+            <Route path='/reports/reports2' exact component={ReportsTwo} />
+            <Route path='/reports/reports3' exact component={ReportsThree} />
+            <Route path='/team' exact component={Team} />
+          </Switch>
+      </Router>
+    </div>
+
   );
 }
 
