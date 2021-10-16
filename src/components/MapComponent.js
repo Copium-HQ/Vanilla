@@ -3,7 +3,13 @@ import GoogleMapReact from 'google-map-react';
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
-export default function SimpleMap(){
+export function Map() {
+    return (
+        <SimpleMap></SimpleMap>
+    );
+}
+
+function SimpleMap(){
   const defaultProps = {
     center: {
       lat: 10.99835602,
@@ -13,9 +19,9 @@ export default function SimpleMap(){
   };
 
   return (
-    <div style={{ height: '100vh', width: '100%' }}>
+    <div style={{ height: '75%', width: '75%' }}>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "" }}
+        bootstrapURLKeys={{ key: "AIzaSyBNww2HXKiz2pO9vyXqZryWS8Xkid27NJA" }}
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
       >
@@ -29,9 +35,3 @@ export default function SimpleMap(){
   );
 }
 
-
-export function MapComponent() {
-    <div>
-        <SimpleMap></SimpleMap>
-    </div>
-}

@@ -14,24 +14,24 @@ export const SidebarData = [
 
   },
   {
-    title: 'Protocols',
+    title: 'Protocols/Procedures',
     path: '/Protocols',
     icon: <IoIcons.IoIosPaper />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
   },
   {
-    title: 'Suits',
+    title: 'Safety-Suits',
     path: '/SuitPage',
     icon: <IoIcons.IoMdPeople />
   },
   {
-    title: 'Map',
-    path: '/Team',
+    title: 'Extra-Terrestrial Sightings',
+    path: '/map',
     icon: <BsIcons.BsFillMapFill />
   },
   {
-    title: 'Emergency',
+    title: 'Emergency Contact',
     path: '/EmergencyPage',
     icon: <BsIcons.BsFillExclamationTriangleFill />,
 
@@ -40,7 +40,7 @@ export const SidebarData = [
 
   },
   {
-    title: 'Report',
+    title: 'Report an Alien',
     path: '/ReportPage',
     icon: <AiIcons.AiOutlineForm/>,
 
