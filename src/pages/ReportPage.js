@@ -3,10 +3,11 @@ import ReactDOM from "react-dom";
 import {Button, TextField } from "@material-ui/core";
 import './pageStyle.css';
 
+
+
 const ReportPage = () => {
   return (
     <div className="report">
-
         <header> Report a Sighting </header>
 
         <form className="reportFormStyle">
@@ -21,13 +22,12 @@ const ReportPage = () => {
             <DescriptionField/>
 
             <br/>
-            <Button variant="contained" component="label" onClick={ (event) => { } }>Upload File<input id="upload-input" type="file" hidden onChange=""></input></Button>
+            <Button variant="outline" component="label" onClick={ (event) => { } }>Upload File<input id="upload-input" type="file" hidden onChange=""></input></Button>
 
             <br/>
-            <Button variant="contained" id="submitButton" onClick={ (event) => { onClickSubmitReportButton() } }>submit</Button>
+            <Button  variant="contained" id="submitButton" onClick={ (event) => { onClickSubmitReportButton() } }>submit</Button>
 
         </form>
-
     </div>
   );
 };
@@ -57,13 +57,13 @@ function DescriptionField() {
     return (
       <div className="Description">
         <TextField
+          
           label="Description"
           inputProps={{
             maxlength: CHARACTER_LIMIT
           }}
           multiline
           value={values.name}
-          className="descriptionText"
           helperText={`${values.name.length}/${CHARACTER_LIMIT}`}
           onChange={handleChange("name")}
           margin="normal"

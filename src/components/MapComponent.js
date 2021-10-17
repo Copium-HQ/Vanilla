@@ -12,8 +12,8 @@ export function Map() {
 function SimpleMap(){
   const defaultProps = {
     center: {
-      lat: 10.99835602,
-      lng: 77.01502627
+      lat:40.730610,
+      lng:-73.935242
     },
     zoom: 11
   };
@@ -26,10 +26,22 @@ function SimpleMap(){
         defaultZoom={defaultProps.zoom}
       >
         <AnyReactComponent
-          lat={59.955413}
-          lng={30.337844}
-          text="My Marker"
+          lat={40.730610}
+          lng={-73.935242}
+          text="Alien Sighting"
         />
+        <AnyReactComponent
+          lat={12.6432}
+          lng={25.3728}
+          text="Alien Sighting"
+        />
+
+        <AnyReactComponent
+          lat={15.12}
+          lng={26.6256}
+          text="Alien Sighting"
+        />
+
       </GoogleMapReact>
     </div>
   );
