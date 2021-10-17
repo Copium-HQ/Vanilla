@@ -1,4 +1,5 @@
 import React from 'react';
+import "./SuitPage.css";
 
 const Suits = () => {
   return (
@@ -18,10 +19,23 @@ const Suits = () => {
         <br></br>
 
             <p>All suits are well equipped to overcome combat and cosmic damages</p>
-            
+
         <br></br>
+        
+        <h1> Alien Detection Rover </h1>
+
+        <br></br>
+        <p>This rover has been designed to use machine learning to detect extra terrestrial life forms</p>
+        <p>The rover scans the enviroment with a purpose of interacting with the aliens without direct human interaction</p>
+        <p>Rover will send back all information via wireless means to avoid contamination risks</p>
+
+        <br></br>
+
+        <img className="imageRover"/>
+
+        <br></br>
+
     </div>
-    /*add in poster image*/
   );
 };
 

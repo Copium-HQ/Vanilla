@@ -1,0 +1,7 @@
+.image {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-image: url("./resources/ceoGuang.jpg");
+    background-size: cover;
+}

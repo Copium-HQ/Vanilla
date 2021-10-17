@@ -43,7 +43,7 @@ const Protocols = () => {
 
                 The rooms subjects reside in:<br></br>
                 
-                <ol className='ibIsaBitch2'>
+                <ol className='ibIsaBitch'>
                     <li>The air will be filter using a H13 HEPA filter.</li>
                     <li>The room will be in negative pressure.</li>
                     <li>There will be 2 CCTV cameras in the room, capturing the whole room.</li>
@@ -51,6 +51,25 @@ const Protocols = () => {
                     <li>Clean clothes will be provided daily.</li>
                 </ol>
             </p>
+    
+            <br></br>
+            <h4>2. Contagion Extermination.</h4>
+    
+            <p>
+                Due to the event in which a extraterrestrial cantagion, should infect a human host to<br></br>
+                the point of no return as deemed by a medical professtional rated at PV security clearance.<br></br>
+                <br></br>
+                The subject will be:<br></br>
+                <ol className='ibIsaBitch'>
+                    <li>Allowed to make or send a final call to their loved ones.</li>
+                    <li>Write a will if they have not.</li>
+                    <li>Have a final physiological biopsy whilst still alive.</li>
+                    <li>Exterminated via euthanasia.</li>
+                    <li>Have another physiological biopsy whilst deceased.</li>
+                    <li>Body will be incinerated in an isolated room and expulsed in space.</li>
+                </ol>
+            </p>
+    
         </div>
   );
 };
