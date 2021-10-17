@@ -43,7 +43,7 @@ const Protocols = () => {
 
                 The rooms subjects reside in:<br></br>
                 
-                <ol className='ibIsaBitch2'>
+                <ol className='ibIsaBitch'>
                     <li>The air will be filter using a H13 HEPA filter.</li>
                     <li>The room will be in negative pressure.</li>
                     <li>There will be 2 CCTV cameras in the room, capturing the whole room.</li>

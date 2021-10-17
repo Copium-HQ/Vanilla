@@ -32,7 +32,9 @@
   font-size: 3rem;
 }
 
-
+.home {
+  font-size: large;
+}
 
 .report {
   padding-left: 40%;
@@ -56,4 +58,8 @@
 .alertBox {
   width: 250;
   height: 350;
+}
+
+.ibIsaBitch {
+  padding-left: 1.5%;
 }

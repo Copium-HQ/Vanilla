@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import {Button, TextField } from "@material-ui/core";
-import './pageStyle.css';
 
 const ReportPage = () => {
   return (

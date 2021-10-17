@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Overview.css";
 
 const Overview = () => {
   return (
@@ -13,8 +14,13 @@ const Overview = () => {
       <p>Our primary purpose here at Copium is the Protection and Safety of all humanity</p>
 
       <br></br>
-      
+
       <p>Thank You, CEO (Guang Yu)</p>
+
+      <br></br>
+
+      <img className="image"/>
+
     </div>
   );
 };
