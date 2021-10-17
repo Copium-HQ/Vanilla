@@ -5,6 +5,8 @@ const Protocols = () => {
     <div className='protocol'>
             <h1>Protocols</h1>
 
+            <br></br>
+
             <h2>Abstract</h2>
 
             <p>
@@ -17,13 +19,15 @@ const Protocols = () => {
                  to<br></br> communicate with aliens, but humanity will not take a risk it does not need to.
             </p>
 
-            <h2>1. Introduction of an extraterrestrial contagion</h2>
+            <br></br>
+
+            <h4>1. Introduction of an extraterrestrial contagion</h4>
 
             <p>
                 In the event that a human shall become physiological immunocompromised due to an 
                 undiscovered<br></br> extraterrestrial contaigion.<br></br><br></br> They will be:<br></br>
                 
-                <ol>
+                <ol className='ibIsaBitch'>
                     <li>Physically Isolated.</li>
                     <li>Be required to detail who they have been in contact with in the past week.</li>
                     <li>Clothes worn at the time of exposure will be examined in a laboratory.</li>
@@ -39,7 +43,7 @@ const Protocols = () => {
 
                 The rooms subjects reside in:<br></br>
                 
-                <ol>
+                <ol className='ibIsaBitch2'>
                     <li>The air will be filter using a H13 HEPA filter.</li>
                     <li>The room will be in negative pressure.</li>
                     <li>There will be 2 CCTV cameras in the room, capturing the whole room.</li>
