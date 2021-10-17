@@ -1,0 +1,15 @@
+.imageRover {
+    position: absolute;
+    width: 650px;
+    height: 400px;
+    background-image: url("./resources/roverbeta.jpg");
+    background-size: cover;
+}
+
+.SuitCope {
+    position: absolute;
+    width: 650px;
+    height: 400px;
+    background-image: url("./resources/copiumSuitImg.jpg");
+    background-size: cover;
+}
