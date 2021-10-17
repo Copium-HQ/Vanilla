@@ -21,7 +21,7 @@ export const SidebarData = [
     iconOpened: <RiIcons.RiArrowUpSFill />,
   },
   {
-    title: 'Safety-Suits',
+    title: 'Equipment',
     path: '/SuitPage',
     icon: <IoIcons.IoMdPeople />
   },
